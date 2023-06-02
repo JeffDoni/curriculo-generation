@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Curriculo</title>
   <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 
 <body>
@@ -16,7 +17,21 @@
     <header id="header">
       <image src="./assets/imgs/profile.png" alt="profile" />
       <h1>Walber Vaz Da Silva</h1>
+      <section id="social">
+        <div>
+          <a href="https://www.linkedin.com/in/walber-vaz/" target="_blank">
+            <i class="devicon-linkedin-plain colored"><span>Linkedin</span></i>
+          </a>
+          <!-- github -->
+          <a href="https://www.github.com/walber-vaz" target="_blank">
+            <i class="devicon-github-original colored"><span>Github</span></i>
+          </a>
+          <!-- phone -->
+          <i icon-name="phone"></i><span>(00) 99999-8888</span>
+        </div>
+      </section>
     </header>
+    <div id="line"></div>
     <!-- Section para informações do currículo -->
     <section id="wrapper">
       <section id="content">
@@ -71,6 +86,10 @@
       </section>
     </section>
   </section>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
 </body>
 
 </html>
