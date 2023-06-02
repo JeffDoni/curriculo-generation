@@ -1,6 +1,6 @@
 <div align="center">
   <img src="banner/pdf-generation.gif" alt="Amostra" width="550px" />
-  <h1>Projeto de geração de currículo</h1>
+  <h1>Projeto para gerar currículo em PDF</h1>
   <p>projeto de geração de currículo em PDF a partir de um arquivo HTML, CSS e JS</p>
 </div>
 
