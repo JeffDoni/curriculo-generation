@@ -45,11 +45,17 @@
   height: 100%;
 }
 
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+}
+
 #experiencia-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   padding-right:20px;
 }
@@ -60,6 +66,8 @@
 
 #experiencia-card h3 {
   border-bottom: 1px solid var(--background-color-gray);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 #experiencia-card p:last-child {
@@ -71,6 +79,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 0 20px;
+  width: 90%;
 }
 
 #content p {
