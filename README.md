@@ -36,6 +36,14 @@ npm run build
 npm run start
 ```
 
+## Fetures para implementar
+
+- [ ] Gerar mais paginas no PDF
+- [ ] Adicionar mais informações no currículo
+- [ ] Adicionar mais estilos ao currículo
+- [ ] Adicionar mais opções de personalização
+- [ ] Adicionar mais opções de exportação
+
 ## LICENSE
 
 [MIT](LICENSE) &copy; [Walber Vaz - 2023](https://github.com/walber-vaz)
