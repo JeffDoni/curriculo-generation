@@ -44,7 +44,7 @@ npm run start
 
 # Ferramentas extras
 
-Para bibliotecas de icones temos 2 no projeto `[Dev Icon](https://devicon.dev/)`e `[Lucide Icon](https://lucide.dev/)`.
+Para bibliotecas de icones temos 2 no projeto [Dev Icon](https://devicon.dev/) e [Lucide Icon](https://lucide.dev/).
 
 ## Fetures para implementar
 
