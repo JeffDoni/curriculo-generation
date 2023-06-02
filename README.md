@@ -36,10 +36,14 @@ npm run build
 npm run start
 ```
 
+# Ferramentas extras
+
+Para bibliotecas de icones temos 2 no projeto `[Dev Icon](https://devicon.dev/)`e `[Lucide Icon](https://lucide.dev/)`.
+
 ## Fetures para implementar
 
-- [ ] Gerar mais paginas no PDF
-- [ ] Adicionar mais informações no currículo
+- [x] Gerar mais paginas no PDF
+- [x] Adicionar mais informações no currículo
 - [ ] Adicionar mais estilos ao currículo
 - [ ] Adicionar mais opções de personalização
 - [ ] Adicionar mais opções de exportação

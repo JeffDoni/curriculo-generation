@@ -9,6 +9,12 @@ const puppeteer = require('puppeteer');
     path: 'out/curriculo.pdf', 
     format: 'A4',
     printBackground: true,
+    margin: {
+      top: '5mm',
+      bottom: '5mm',
+      left: '5mm',
+      right: '5mm'
+    }
   });
 
   await browser.close();
