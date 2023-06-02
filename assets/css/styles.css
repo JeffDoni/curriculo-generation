@@ -1,0 +1,68 @@
+/* =========================Config Geral Não Altere */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@page {
+  size: A4;
+}
+
+html {
+  font-size: 62.5%;
+  background: hsla(280, 84%, 41%, 1);
+  background: linear-gradient(90deg, hsla(280, 84%, 41%, 1) 0%, hsla(218, 97%, 56%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(280, 84%, 41%, 1) 0%, hsla(218, 97%, 56%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(280, 84%, 41%, 1) 0%, hsla(218, 97%, 56%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8711C1", endColorstr="#2472FC", GradientType=1 );
+}
+
+body {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  padding: 5mm;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFF;
+  box-shadow: 0 2rem 3rem rgba(38, 1, 67, 0.625);
+}
+/* ================================================ */
+
+/* =========================Main */
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header img {
+  width: 120px;
+  height: 120px;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 50%;
+
+  margin-bottom: 2rem;
+
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+#header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+
+/* ================================================ */

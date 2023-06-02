@@ -1,0 +1,20 @@
+{
+  "name": "curriculo-generation",
+  "version": "1.0.0",
+  "description": "Gerador curriculo usando html5, css e javascript",
+  "main": "gen.js",
+  "scripts": {
+    "start": "live-server --port=8080 --entry-file=index.html --watch=.",
+    "build": "if [ -f out/curriculo.pdf ]; then rm out/curriculo.pdf; fi; node gen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/curriculo-generation.git"
+  },
+  "author": "Walber Vaz <wvs.walber@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "puppeteer": "^20.5.0"
+  }
+}
