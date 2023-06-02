@@ -4,6 +4,12 @@
   <p>projeto de geração de currículo em PDF a partir de um arquivo HTML, CSS e JS</p>
 </div>
 
+## Status do projeto
+
+<h4 align="center">
+  🚧  Projeto em desenvolvimento...  🚧
+</h4>
+
 ## Por que?
 
 A ideia é que seja possível gerar um currículo em PDF a partir de um arquivo HTML, CSS e JS. Assim, é possível ter um currículo mais dinâmico e com mais possibilidades de personalização.
