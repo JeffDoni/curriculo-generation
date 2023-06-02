@@ -42,16 +42,35 @@
 
 #wrapper {
   display: flex;
+  height: 100%;
+}
+
+#experiencia-card {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  width: 100%;
+  padding-right:20px;
+}
+
+#experiencia-card h3 {
+  margin-top: 10px;
+}
+
+#experiencia-card h3 {
+  border-bottom: 1px solid var(--background-color-gray);
+}
+
+#experiencia-card p:last-child {
+  margin-bottom: 20px;
 }
 
 #content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 20px;
 }
 
 #content p {
@@ -94,5 +113,9 @@
   height: 1px;
   background-color: var(--background-color-gray);
   margin: 20px 0;
+}
+
+#line-right {
+  border-right: 1px solid var(--background-color-gray);
 }
 /* ================================================ */
